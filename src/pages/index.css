@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: auto;
     color: #ffffff;
     text-align: center;
     background-color: rgb(23, 23, 23);
@@ -52,7 +52,7 @@ body {
     align-items: center;
     border-radius: 3%;
     color: #001621;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
 }
 
