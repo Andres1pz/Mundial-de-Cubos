@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/fondo.png);
+}
+.caja {
+    flex-wrap: wrap;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+
+.cajados {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    text-align: center;
+    background-image: url(/fondo.png);
+}
+
+.colcaja {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    color: #001621;
+    padding: 20px;
+    margin: 10px;
+}
+
+.colcajados {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    background-color: #001621;
+    transition: 300ms;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.colcajados :hover {
+    transition: 300ms;
+    color: #FF4103;
+}
+
+
+.coltitu {
+    font-weight: 700;
+    padding: large;
+    margin: 0%;
+}
+
+.coltexto {
+    font-weight: 300;
+    font-size: 50px;
+    margin: 0%;
+}
+
+/* Desplazamiento suave para todo el sitio */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sección principal del equipo */
+.team-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  /* Margen interno superior para que el menú fijo no tape el título al hacer clic en #teams */
+    scroll-margin-top: 20px; 
+    background-color: #001621;
+}
+
+.team-title {
+  font-size: 2.5rem;
+
+  color: #ffffff;
+}
+
+/* Contenedor en cuadrícula de 3 columnas */
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas individuales */
+.team-card {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  background: #FF4103;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre la tarjeta */
+.team-card:hover {
+  transform: translateY(-5px);
+  background-color: #CCFF02;
+}
+
+/* Marcador de posición para la foto */
+.avatar-placeholder {
+  width: 100px;
+  height: 100px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.team-card h3 {
+  margin: 0px 0 0px;
+  color: #222;
+}
+
+
