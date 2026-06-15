@@ -7,8 +7,9 @@ body {
 .banner {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     background-image: url(/fondo.png);
+    background-position: center;
 }
 .caja {
     flex-wrap: wrap;
