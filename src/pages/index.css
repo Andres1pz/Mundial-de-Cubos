@@ -101,7 +101,6 @@ html {
 .team-section {
     display: flex;
     flex-direction: column;
-    padding: 80px 20px;
     width: auto;
     margin: 0 auto;
     text-align: center;
@@ -163,3 +162,14 @@ html {
 }
 
 
+iframe {
+ width: 90%;
+ height: 90%;
+}
+
+.livestream {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
